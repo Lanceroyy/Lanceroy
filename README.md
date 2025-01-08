@@ -1,4 +1,4 @@
-# portfolio
+# Portfolio
 A portfolio of some of the work I've done.
 
 ## License
