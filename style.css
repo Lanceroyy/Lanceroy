@@ -203,7 +203,7 @@ section{
     box-shadow: 0 0 40px #077b32;
 }
 
-/* Education and Certifications Sections */
+/*------------ Education and Certifications Sections-------------- */
 .section-container {
     max-width: 1200px;
     margin: 0 auto;
@@ -316,6 +316,139 @@ section{
     font-weight: 500;
 }
 
+/*----------- Projects Section--------- */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: rgba(7, 123, 50, 0.1);
+    border: 2px solid #077b32;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 30px rgba(7, 123, 50, 0.3);
+}
+
+.project-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.project-content {
+    padding: 20px;
+    color: white;
+}
+
+.project-content h3 {
+    color: #077b32;
+    margin-bottom: 15px;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.project-tech span {
+    background-color: rgba(7, 123, 50, 0.2);
+    color: #077b32;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.project-links {
+    display: flex;
+    gap: 15px;
+}
+
+.project-links .btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #077b32;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.project-links .btn:hover {
+    background-color: rgba(7, 123, 50, 0.8);
+}
+
+/*---------- Skill Section----------------*/
+
+
+
+
+
+/*---------- About Me Section----------------*/
+.about-me-section {
+    margin-top: 20px;
+}
+
+.about-me-toggle {
+    background-color: #ffffff00 !important;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-me-toggle i {
+    transition: transform 0.3s ease;
+}
+
+.about-me-toggle.active i {
+    transform: rotate(180deg);
+}
+
+.about-me-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: rgba(7, 123, 50, 0);
+    padding: 0 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.about-me-content.show {
+    max-height: 500px;
+    padding: 15px;
+}
+
+/* Certifications Section Update */
+.cert-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-card-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+    border: 2px solid #077b32;
+}
+
 @media (max-width:884px) {
     nav .logo{
         position: absolute;
@@ -323,4 +456,7 @@ section{
         left: 15px;
         font-size: 1.5rem;
     }
-    .main
+    .main {
+        /* add your styles here */
+    }
+}

@@ -42,6 +42,15 @@ function eraseText(){
     }
 }
 
+function toggleAboutMe() {
+    const toggle = document.querySelector('.about-me-toggle');
+    const content = document.querySelector('.about-me-content');
+    
+    toggle.classList.toggle('active');
+    content.classList.toggle('show');
+}
+
+
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
