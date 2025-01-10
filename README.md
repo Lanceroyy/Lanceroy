@@ -59,24 +59,10 @@ npx http-server
 4. Add your certifications and education details
 5. Update social media links in the navigation
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-While this is a personal portfolio website, suggestions and feedback are always welcome! Feel free to:
-
-1. Fork the repository
-2. Create a new branch
-3. Make your changes
-4. Submit a pull request
-
 ## 📞 Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@yourusername](https://github.com/Lanceroyy)
+- LinkedIn: [Your Name](https://linkedin.com/in/Lanceroller)
 
 ## 🙏 Acknowledgments
 
