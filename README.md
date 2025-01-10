@@ -51,18 +51,10 @@ python -m http.server 8000
 npx http-server
 ```
 
-## 🔧 Customization
-
-1. Replace `main.png` with your profile picture
-2. Update personal information in `index.html`
-3. Modify styles in `style.css` to match your preferred color scheme
-4. Add your certifications and education details
-5. Update social media links in the navigation
-
 ## 📞 Contact
 
-- GitHub: [@yourusername](https://github.com/Lanceroyy)
-- LinkedIn: [Your Name](https://linkedin.com/in/Lanceroller)
+- GitHub: [@Lanceroyy](https://github.com/Lanceroyy)
+- LinkedIn: [Lance Roller](https://linkedin.com/in/Lanceroller)
 
 ## 🙏 Acknowledgments
 
