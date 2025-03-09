@@ -111,12 +111,12 @@ section{
     justify-content: space-evenly;
     align-items: center;
 }
-.main-container .image{
-    width: 500px;
-    height: 80vh;
-    border-radius: 100%;
+.main-container .image {
+    width: 450px;
+    height: 450px; /* Make it square */
+    border-radius: 50%; /* 50% is cleaner than 100% */
     overflow: hidden;
-    box-shadow: 0 0 50px #077b32;
+    box-shadow: 0px 0px 75px #077b32;
 }
 .main-container .image img{
     width: 100%;
