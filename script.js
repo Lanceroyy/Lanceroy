@@ -14,7 +14,7 @@ const texts = [
     "GAME DEVELOPER",
     "PROBLEM SOLVER"
 ]
-let speed = 50; //Time in milliseconds
+let speed = 30; //Time in milliseconds
 const textElements = document.querySelector(".typewriter-text");
 let textIndex = 0;
 let characterIndex = 0;
