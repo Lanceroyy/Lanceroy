@@ -398,19 +398,29 @@ section{
     flex-wrap: wrap;
     justify-content: center;
   }
-  
+
+  /* Badge Styles */
   .badge {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 4px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 15px;
     background-color: #358f38;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    margin: 10px;
-    font-size: 16px;
-    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #077b32;
+    transition: all 0.3s ease;
   }
   
   .badge:hover {
-    background-color: #3eb542;
+    transform: translateY(-2px);
+    box-shadow: 0 0 10px rgba(7, 123, 50, 0.3);
+    background-color: rgba(7, 123, 50, 0.3);
   }
   
   
